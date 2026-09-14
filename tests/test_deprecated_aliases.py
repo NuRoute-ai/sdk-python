@@ -14,7 +14,7 @@ import httpx
 import pytest
 import respx
 
-from aicp import (
+from nuroute import (
     AICPClient,
     AICPError,
     AsyncAICPClient,

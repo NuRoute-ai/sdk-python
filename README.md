@@ -5,7 +5,7 @@ The official Python SDK for [NuRoute](https://github.com/NuRoute-ai/sdk-python) 
 ## Installation
 
 ```bash
-pip install aicp
+pip install nuroute
 ```
 
 Requires **Python 3.9+**.
@@ -13,7 +13,7 @@ Requires **Python 3.9+**.
 ## Quick start
 
 ```python
-from aicp import NuRouteClient
+from nuroute import NuRouteClient
 
 client = NuRouteClient(
     api_key="aicp-...",
@@ -44,7 +44,7 @@ for chunk in client.chat.stream(
 ## Async client
 
 ```python
-from aicp import AsyncNuRouteClient
+from nuroute import AsyncNuRouteClient
 
 async with AsyncNuRouteClient(api_key="aicp-...", base_url="https://your-nuroute-gateway") as client:
     response = await client.chat.complete(

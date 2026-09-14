@@ -14,7 +14,7 @@ import json
 import httpx
 import respx
 
-from aicp import NuRouteClient
+from nuroute import NuRouteClient
 
 
 @respx.mock

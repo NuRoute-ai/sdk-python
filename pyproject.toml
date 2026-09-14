@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "aicp"
+name = "nuroute"
 version = "0.1.0"
 description = "Official Python SDK for NuRoute — provider-agnostic inference client"
 readme = "README.md"
@@ -21,7 +21,7 @@ Documentation = "https://nuroute.ai/docs"
 dev = ["pytest>=8.0", "pytest-asyncio>=0.23", "respx>=0.21"]
 
 [tool.hatch.build.targets.wheel]
-packages = ["aicp"]
+packages = ["nuroute"]
 
 [tool.pytest.ini_options]
 asyncio_mode = "auto"

@@ -74,3 +74,5 @@ How routing decisions are made: [nuroute.ai/docs/concepts/routing-performance](h
 ## License
 
 MIT
+
+Questions, ideas, or show-and-tell: [github.com/NuRoute-ai/.github/discussions](https://github.com/NuRoute-ai/.github/discussions)

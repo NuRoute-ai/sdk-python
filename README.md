@@ -3,7 +3,7 @@
 [![PyPI version](https://img.shields.io/pypi/v/nuroute)](https://pypi.org/project/nuroute/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-The official Python SDK for [NuRoute](https://nuroute.ai) — a provider-agnostic LLM gateway that lets you route, monitor, and control inference requests across OpenAI, Anthropic, Google, and more.
+The official Python SDK for [NuRoute](https://nuroute.ai), a provider-agnostic LLM gateway that lets you route, monitor, and control inference requests across OpenAI, Anthropic, Google, and more.
 
 Point `model="auto"` at any request and NuRoute predicts the cheapest model that can still answer it well, so you stop paying frontier prices for prompts a cheaper model would handle just as well.
 
@@ -71,8 +71,10 @@ Full SDK documentation: [nuroute.ai/docs](https://nuroute.ai/docs)
 
 How routing decisions are made: [nuroute.ai/docs/concepts/routing-performance](https://nuroute.ai/docs/concepts/routing-performance)
 
+## Community
+
+Questions, ideas, or show-and-tell: [github.com/NuRoute-ai/.github/discussions](https://github.com/NuRoute-ai/.github/discussions)
+
 ## License
 
 MIT
-
-Questions, ideas, or show-and-tell: [github.com/NuRoute-ai/.github/discussions](https://github.com/NuRoute-ai/.github/discussions)
